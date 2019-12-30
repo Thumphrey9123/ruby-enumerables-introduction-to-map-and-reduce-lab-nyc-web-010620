@@ -59,7 +59,7 @@ def reduce_to_all_true(source_array)
   arr
 end
 
-def reduce_to_total(source_array)
+def reduce_to_any_true(source_array)
   sum = 0
   i=0 
   while i<source_array.length do
