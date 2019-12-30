@@ -15,7 +15,7 @@ def map_to_no_change(source_array)
     arr << source_array[i]
     i+= 1 
   end
-  arr
+  return arr
 end
 
 def map_to_double(source_array)
