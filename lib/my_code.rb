@@ -40,15 +40,15 @@ end
 
 def reduce_to_total(source_array, starting_point)
   sum =0
+  if starting_point
+      starting_point+=
+  else 
   i=0 
   while i<source_array.length do
-    if starting_point
-      starting_point+= source_array[i]
-    else 
-      sum+= source_array[i]
+    sum+= source_array[i]
     i+= 1
   end
-  starting_point+sum
+  sum
 end
 
 def reduce_to_all_true(source_array)
